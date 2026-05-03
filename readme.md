@@ -92,6 +92,7 @@ db/            # database manager/connection
 migrations/    # SQL migrations
 models/        # data models
 repositories/  # data access layer
+services/      # business logic layer (user and plaid item services)
 main.go        # entry point and HTTP server bootstrap
 ```
 
