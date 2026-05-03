@@ -38,6 +38,9 @@ DATABASE_URL=host=localhost user=myuser password=mypassword dbname=mydatabase po
 PORT=8080
 ```
 
+`PLAID_ENV` supports: `sandbox`, `development`, or `production`.
+If `PLAID_ENV` is missing or invalid, the app defaults to `sandbox`.
+
 ## Running with Docker (database only)
 
 Start PostgreSQL and pgAdmin:

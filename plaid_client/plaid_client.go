@@ -1,4 +1,4 @@
-package plaidclient
+package plaid_client
 
 import (
 	"github.com/plaid/plaid-go/v21/plaid"
